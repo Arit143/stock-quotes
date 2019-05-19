@@ -5,8 +5,8 @@ import { Provider } from 'react-redux';
 
 import store from './utils/store';
 
-import GAListener from 'components/GAListener';
-import { EmptyLayout, LayoutRoute } from 'components/Layout';
+import GAListener from './components/GAListener';
+import { EmptyLayout, LayoutRoute } from './components/Layout';
 
 import SearchPage from './pages/SearchPage';
 import StockPage from './pages/StockPage';
